@@ -8,7 +8,7 @@ Just add an inheritence line to your project's `.rubocop.yml` file.
 
 ```yaml
 inherit_from:
-  - https://github.com.com/RoleModel/shared_rubocop/tree/master/rubocop.yml
+  - https://raw.githubusercontent.com/RoleModel/shared_rubocop/master/.rubocop.yml
 ```
 
 ## Contributing
