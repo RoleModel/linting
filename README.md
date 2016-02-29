@@ -1,6 +1,6 @@
 # RoleModel Shared Rubocop config
 
-Base [rubocop](https://github.com/bbatsov/rubocop#inheriting-configuration-from-a-remote-url) configuration to used on all RoleModel Ruby projects.
+Base [rubocop](https://github.com/bbatsov/rubocop#inheriting-configuration-from-a-remote-url) configuration used on all RoleModel Ruby projects.
 
 ## Usage
 
