@@ -52,5 +52,5 @@ Style/IndentArray:
 Style/IndentHash:
   EnforcedStyle: consistent
   
- Style/BracesAroundHashParameters
+ Style/BracesAroundHashParameters:
    Enabled: false
