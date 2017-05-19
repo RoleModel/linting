@@ -48,3 +48,6 @@ Metrics/MethodLength:
 
 Style/IndentArray:
   EnforcedStyle: consistent
+  
+ Style/BracesAroundHashParameters
+   Enabled: false
