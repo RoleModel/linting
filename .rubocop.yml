@@ -47,4 +47,4 @@ Metrics/MethodLength:
   Max: 15
 
 Style/IndentArray:
-  EnforcedStyle: consisten
+  EnforcedStyle: consistent
