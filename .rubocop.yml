@@ -13,7 +13,7 @@ Rails:
 Style/DoubleNegation:
   Enabled: false
 
-Style/SpaceInsideBrackets:
+Layout/SpaceInsideBrackets:
   Enabled: false
 
 Style/Documentation:
@@ -46,10 +46,10 @@ Metrics/AbcSize:
 Metrics/MethodLength:
   Max: 15
 
-Style/IndentArray:
+Layout/IndentArray:
   EnforcedStyle: consistent
 
-Style/IndentHash:
+Layout/IndentHash:
   EnforcedStyle: consistent
   
 Style/BracesAroundHashParameters:
