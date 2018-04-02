@@ -12,8 +12,11 @@ Rails:
 
 Style/DoubleNegation:
   Enabled: false
+  
+Layout/SpaceInsideReferenceBrackets:
+  Enabled: false
 
-Layout/SpaceInsideBrackets:
+Layout/SpaceInsideArrayLiteralBrackets:
   Enabled: false
 
 Style/Documentation:
@@ -51,6 +54,6 @@ Layout/IndentArray:
 
 Layout/IndentHash:
   EnforcedStyle: consistent
-  
+
 Style/BracesAroundHashParameters:
   Enabled: false
