@@ -32,6 +32,10 @@ module.exports = {
 
     // Could go either way on this one. Personally prefer without.
     "comma-dangle": ["error", "never"],
+    
+    // Multiple variable declarations (without assignment) on the same line without multiple let/const
+    "one-var": ["error", { "initialized": "never", "uninitialized": "always" }],
+    "one-var-declaration-per-line": ["error", "initializations"],
 
     // Maybe we want to enforce JSX files having the .jsx extension, but ConD hasn't so far
     "react/jsx-filename-extension": "off",
