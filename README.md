@@ -4,11 +4,11 @@ Base [rubocop](https://github.com/bbatsov/rubocop#inheriting-configuration-from-
 
 ## Usage
 
-Just add an inheritence line to your project's `.rubocop.yml` file. Ensure you have Rubocop `0.49.1` or later installed.
+Just add an inheritence line to your project's `.rubocop.yml` file. Ensure you have Rubocop `0.71.0` or later installed.
 
 ```yaml
 inherit_from:
-  - https://raw.githubusercontent.com/RoleModel/shared_rubocop/master/.rubocop.yml
+  - https://raw.githubusercontent.com/RoleModel/linting/master/.rubocop.yml
 ```
 
 ## Contributing
