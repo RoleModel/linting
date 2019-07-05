@@ -10,23 +10,49 @@ AllCops:
 Rails:
   Enabled: true
 
-Style/DoubleNegation:
-  Enabled: false
-
-Layout/SpaceInsideReferenceBrackets:
-  Enabled: false
-
-Layout/SpaceInsideArrayLiteralBrackets:
-  Enabled: false
-
-Style/Documentation:
-  Enabled: false
-
 Rails/ActionFilter:
   Enabled: false
 
 Rails/Delegate:
   Enabled: false
+
+Metrics:
+  Severity: refactor
+
+# RSpec tests and rake tasks are expected to have
+# large blocks, so exclude them from this cop.
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+
+# Hard to make this pass always and want to keep flexibility
+Layout/AlignArray:
+  Enabled: false
+
+# Best Practices for readability
+Layout:
+  Severity: refactor
+
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
+Layout/IndentHash:
+  EnforcedStyle: consistent
+
+
+Lint/UnusedMethodArgument:
+  Severity: refactor
+  AutoCorrect: false
+
+Lint/UnusedBlockArgument:
+  Severity: refactor
+  AutoCorrect: false
+
+Lint/UselessAssignment:
+  Severity: refactor
+  AutoCorrect: false
 
 Lint/UnderscorePrefixedVariableName:
   Enabled: false
@@ -37,23 +63,9 @@ Lint/Loop:
 Lint/HandleExceptions:
   Enabled: false
 
+Style:
+  Severity: refactor
+
+# It is ok to use inject at times
 Style/EachWithObject:
-  Enabled: false
-
-Metrics/LineLength:
-  Max: 100
-
-Metrics/AbcSize:
-  Max: 18
-
-Metrics/MethodLength:
-  Max: 15
-
-Layout/IndentFirstArrayElement:
-  EnforcedStyle: consistent
-
-Layout/IndentFirstHashElement:
-  EnforcedStyle: consistent
-
-Style/BracesAroundHashParameters:
   Enabled: false
