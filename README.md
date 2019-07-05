@@ -32,9 +32,21 @@ inherit_from:
 
 ### Editor Setup
 
+* Atom - [linter-rubocop](https://atom.io/packages/linter-rubocop)
+  * Supporting: [rubocop-auto-correct](https://atom.io/packages/rubocop-auto-correct)
+
+
 ## JavaScript / ESLint
 
-## CSS / Stylelint
+TODO - incorporate from separate PR
+
+## CSS/SCSS / Stylelint
+
+Base linter to enforce basic CSS/SCSS best practices.
+
+### Usage
+
+Copy [stylelint.config.js](stylelint.config.js) into your project and add packages you'll need.
 
 ## Contributing
 
