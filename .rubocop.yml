@@ -19,12 +19,6 @@ Layout/SpaceInsideArrayLiteralBrackets:
 Style/Documentation:
   Enabled: false
 
-Rails/ActionFilter:
-  Enabled: false
-
-Rails/Delegate:
-  Enabled: false
-
 Lint/UnderscorePrefixedVariableName:
   Enabled: false
 
